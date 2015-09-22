@@ -14,12 +14,6 @@ namespace BibliotecaVirtualWeb
     
     public partial class ALUNO
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public ALUNO()
-        {
-            this.EMPRESTIMO = new HashSet<EMPRESTIMO>();
-        }
-    
         public int ID_ALUNO { get; set; }
         public string NOME { get; set; }
         public string SOBRENOME { get; set; }
@@ -35,9 +29,5 @@ namespace BibliotecaVirtualWeb
         public string TEL_CEL { get; set; }
         public int ID_RESERVA { get; set; }
         public string EMAIL { get; set; }
-    
-        public virtual RESERVA RESERVA { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<EMPRESTIMO> EMPRESTIMO { get; set; }
     }
 }

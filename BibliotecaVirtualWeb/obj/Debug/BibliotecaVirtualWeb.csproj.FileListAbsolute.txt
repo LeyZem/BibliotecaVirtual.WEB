@@ -1,14 +1,14 @@
+C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\VBCSCompiler.exe
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\csc.exe
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\System.Reflection.Metadata.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\vbc.exe
-C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\VBCSCompiler.exe
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\BibliotecaVirtualWeb.dll.config
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\BibliotecaVirtualWeb.dll
@@ -64,6 +64,6 @@ C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\M
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\obj\Debug\BibliotecaVirtualWeb.csprojResolveAssemblyReference.cache
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\obj\Debug\BibliotecaVirtualWeb.dll
 C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\obj\Debug\BibliotecaVirtualWeb.pdb
+C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\obj\Debug\BibliotecaVirtualWeb.csprojResolveAssemblyReference.cache

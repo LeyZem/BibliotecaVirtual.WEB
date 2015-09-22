@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A0C72DD0-FBAF-496D-8456-21A39693D27A}</ProjectGuid>
+    <ProjectGuid>{EFCCCD11-CBCC-4645-81E0-5327EC22AD7A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -172,9 +172,6 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="AUTOR.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
     <Compile Include="BibliotecaVirtual.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -191,34 +188,17 @@
       <DependentUpon>BibliotecaVirtual.edmx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ALUNOesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="EDITORA.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
-    <Compile Include="EMPRESTIMO.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
-    <Compile Include="GENERO.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="LIVRO.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RESERVA.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="sysdiagrams.cs">
-      <DependentUpon>BibliotecaVirtual.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="BibliotecaVirtual.Context.tt">
@@ -292,6 +272,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\ALUNOes\Create.cshtml" />
+    <Content Include="Views\ALUNOes\Delete.cshtml" />
+    <Content Include="Views\ALUNOes\Details.cshtml" />
+    <Content Include="Views\ALUNOes\Edit.cshtml" />
+    <Content Include="Views\ALUNOes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -323,7 +308,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>6404</DevelopmentServerPort>
+          <DevelopmentServerPort>4781</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:6404/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

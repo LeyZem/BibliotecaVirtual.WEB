@@ -4,130 +4,23 @@
     <EntitySetMapping Name="ALUNO">
       <EntityTypeMapping TypeName="BibliotecaVirtualModel.ALUNO">
         <MappingFragment StoreEntitySet="ALUNO">
-          <ScalarProperty Name="ID_ALUNO" ColumnName="ID_ALUNO" />
-          <ScalarProperty Name="NOME" ColumnName="NOME" />
-          <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
-          <ScalarProperty Name="CPF" ColumnName="CPF" />
-          <ScalarProperty Name="NASC" ColumnName="NASC" />
-          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
-          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
-          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
-          <ScalarProperty Name="UF" ColumnName="UF" />
-          <ScalarProperty Name="CEP" ColumnName="CEP" />
-          <ScalarProperty Name="PAIS" ColumnName="PAIS" />
-          <ScalarProperty Name="TEL_RES" ColumnName="TEL_RES" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="ID_RESERVA" ColumnName="ID_RESERVA" />
           <ScalarProperty Name="TEL_CEL" ColumnName="TEL_CEL" />
-          <ScalarProperty Name="ID_RESERVA" ColumnName="ID_RESERVA" />
-          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="AUTOR">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.AUTOR">
-        <MappingFragment StoreEntitySet="AUTOR">
-          <ScalarProperty Name="ID_AUTOR" ColumnName="ID_AUTOR" />
-          <ScalarProperty Name="NOME" ColumnName="NOME" />
-          <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
-          <ScalarProperty Name="BIOGRAFIA" ColumnName="BIOGRAFIA" />
-          <ScalarProperty Name="SITE" ColumnName="SITE" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="EDITORA">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.EDITORA">
-        <MappingFragment StoreEntitySet="EDITORA">
-          <ScalarProperty Name="ID_EDITORA" ColumnName="ID_EDITORA" />
-          <ScalarProperty Name="NOME" ColumnName="NOME" />
-          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
-          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
-          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
-          <ScalarProperty Name="UF" ColumnName="UF" />
-          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="TEL_RES" ColumnName="TEL_RES" />
           <ScalarProperty Name="PAIS" ColumnName="PAIS" />
-          <ScalarProperty Name="TEL_1" ColumnName="TEL_1" />
-          <ScalarProperty Name="TEL_2" ColumnName="TEL_2" />
-          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="EMPRESTIMO">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.EMPRESTIMO">
-        <MappingFragment StoreEntitySet="EMPRESTIMO">
-          <ScalarProperty Name="ID_EMPRESTIMO" ColumnName="ID_EMPRESTIMO" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="CIDADE" ColumnName="CIDADE" />
+          <ScalarProperty Name="BAIRRO" ColumnName="BAIRRO" />
+          <ScalarProperty Name="ENDERECO" ColumnName="ENDERECO" />
+          <ScalarProperty Name="NASC" ColumnName="NASC" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="SOBRENOME" ColumnName="SOBRENOME" />
+          <ScalarProperty Name="NOME" ColumnName="NOME" />
           <ScalarProperty Name="ID_ALUNO" ColumnName="ID_ALUNO" />
-          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
-          <ScalarProperty Name="DATA_EMP" ColumnName="DATA_EMP" />
-          <ScalarProperty Name="DATA_DEVOL" ColumnName="DATA_DEVOL" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="GENERO">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.GENERO">
-        <MappingFragment StoreEntitySet="GENERO">
-          <ScalarProperty Name="ID_GENERO" ColumnName="ID_GENERO" />
-          <ScalarProperty Name="DESCRICAO" ColumnName="DESCRICAO" />
-          <ScalarProperty Name="ANDAR" ColumnName="ANDAR" />
-          <ScalarProperty Name="CORREDOR" ColumnName="CORREDOR" />
-          <ScalarProperty Name="PRETELEIRA" ColumnName="PRETELEIRA" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="LIVRO">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.LIVRO">
-        <MappingFragment StoreEntitySet="LIVRO">
-          <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
-          <ScalarProperty Name="ID_EDITORA" ColumnName="ID_EDITORA" />
-          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
-          <ScalarProperty Name="VOLUME" ColumnName="VOLUME" />
-          <ScalarProperty Name="DATA_PUBLIC" ColumnName="DATA_PUBLIC" />
-          <ScalarProperty Name="QTD_EXMPLARES" ColumnName="QTD_EXMPLARES" />
-          <ScalarProperty Name="QTD_DISP_EMPR" ColumnName="QTD_DISP_EMPR" />
-          <ScalarProperty Name="SUMARIO" ColumnName="SUMARIO" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="RESERVA">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.RESERVA">
-        <MappingFragment StoreEntitySet="RESERVA">
-          <ScalarProperty Name="ID_RESERVA" ColumnName="ID_RESERVA" />
-          <ScalarProperty Name="DATA_RES" ColumnName="DATA_RES" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="sysdiagrams">
-      <EntityTypeMapping TypeName="BibliotecaVirtualModel.sysdiagrams">
-        <MappingFragment StoreEntitySet="sysdiagrams">
-          <ScalarProperty Name="name" ColumnName="name" />
-          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-          <ScalarProperty Name="version" ColumnName="version" />
-          <ScalarProperty Name="definition" ColumnName="definition" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <AssociationSetMapping Name="LIVROAUTOR" TypeName="BibliotecaVirtualModel.LIVROAUTOR" StoreEntitySet="LIVROAUTOR">
-      <EndProperty Name="AUTOR">
-        <ScalarProperty Name="ID_AUTOR" ColumnName="ID_AUTOR" />
-      </EndProperty>
-      <EndProperty Name="LIVRO">
-        <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
-      </EndProperty>
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="LIVROGENERO" TypeName="BibliotecaVirtualModel.LIVROGENERO" StoreEntitySet="LIVROGENERO">
-      <EndProperty Name="GENERO">
-        <ScalarProperty Name="ID_GENERO" ColumnName="ID_GENERO" />
-      </EndProperty>
-      <EndProperty Name="LIVRO">
-        <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
-      </EndProperty>
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="RESERVALIVROS" TypeName="BibliotecaVirtualModel.RESERVALIVROS" StoreEntitySet="RESERVALIVROS">
-      <EndProperty Name="LIVRO">
-        <ScalarProperty Name="ID_LIVRO" ColumnName="ID_LIVRO" />
-      </EndProperty>
-      <EndProperty Name="RESERVA">
-        <ScalarProperty Name="ID_RESERVA" ColumnName="ID_RESERVA" />
-      </EndProperty>
-    </AssociationSetMapping>
   </EntityContainerMapping>
 </Mapping>

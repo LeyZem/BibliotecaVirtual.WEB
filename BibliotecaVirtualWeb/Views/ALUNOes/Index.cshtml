@@ -1,0 +1,111 @@
+﻿@model IEnumerable<BibliotecaVirtualWeb.ALUNO>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NOME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SOBRENOME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NASC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ENDERECO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BAIRRO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CIDADE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CEP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PAIS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TEL_RES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TEL_CEL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_RESERVA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SOBRENOME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CPF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NASC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ENDERECO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BAIRRO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CIDADE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UF)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CEP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PAIS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TEL_RES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TEL_CEL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_RESERVA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_ALUNO }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_ALUNO }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_ALUNO })
+        </td>
+    </tr>
+}
+
+</table>

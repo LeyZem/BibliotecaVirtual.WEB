@@ -18,6 +18,7 @@ namespace BibliotecaVirtualWeb
         public BibliotecaVirtualEntities()
             : base("name=BibliotecaVirtualEntities")
         {
+            Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -26,12 +27,5 @@ namespace BibliotecaVirtualWeb
         }
     
         public virtual DbSet<ALUNO> ALUNO { get; set; }
-        public virtual DbSet<AUTOR> AUTOR { get; set; }
-        public virtual DbSet<EDITORA> EDITORA { get; set; }
-        public virtual DbSet<EMPRESTIMO> EMPRESTIMO { get; set; }
-        public virtual DbSet<GENERO> GENERO { get; set; }
-        public virtual DbSet<LIVRO> LIVRO { get; set; }
-        public virtual DbSet<RESERVA> RESERVA { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }
