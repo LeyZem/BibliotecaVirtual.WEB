@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<BibliotecaVirtualWeb.ALUNO>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Projeto ASP.NET MVC - Listagem";
 }
 
-<h2>Index</h2>
+<h2>Alunos Cadastrados</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Criar novo", "Create")
 </p>
 <table class="table">
     <tr>
@@ -101,9 +101,9 @@
             @Html.DisplayFor(modelItem => item.EMAIL)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID_ALUNO }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID_ALUNO }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID_ALUNO })
+            @Html.ActionLink("Alterar", "Edit", new { id=item.ID_ALUNO }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.ID_ALUNO }) |
+            @Html.ActionLink("Excluir", "Delete", new { id=item.ID_ALUNO })
         </td>
     </tr>
 }

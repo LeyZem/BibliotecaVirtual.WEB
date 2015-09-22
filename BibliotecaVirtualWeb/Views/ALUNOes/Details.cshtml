@@ -1,10 +1,10 @@
 ﻿@model BibliotecaVirtualWeb.ALUNO
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Projeto ASP.NET MVC - Detalhes";
 }
 
-<h2>Details</h2>
+<h2>Detalhes do Aluno</h2>
 
 <div>
     <h4>ALUNO</h4>
@@ -125,6 +125,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_ALUNO }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Alterar", "Edit", new { id = Model.ID_ALUNO }) |
+    @Html.ActionLink("Voltar para página anterior", "Index")
 </p>
