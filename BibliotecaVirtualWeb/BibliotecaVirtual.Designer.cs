@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\-Fabs\Documents\GitHub\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\BibliotecaVirtual.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\OneDrive\Faculdade\2015\TAC\Projetos\BibliotecaVirtual.WEB\BibliotecaVirtualWeb\BibliotecaVirtual.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

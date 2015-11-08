@@ -22,7 +22,7 @@
           <Property Name="PAIS" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="TEL_RES" Type="varchar" MaxLength="13" Nullable="false" />
           <Property Name="TEL_CEL" Type="varchar" MaxLength="14" />
-          <Property Name="ID_RESERVA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_RESERVA" Type="int" />
           <Property Name="EMAIL" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <EntityContainer Name="BibliotecaVirtualModelStoreContainer">
@@ -52,7 +52,7 @@
           <Property Name="PAIS" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
           <Property Name="TEL_RES" Type="String" Nullable="false" MaxLength="13" FixedLength="false" Unicode="false" />
           <Property Name="TEL_CEL" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
-          <Property Name="ID_RESERVA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_RESERVA" Type="Int32" />
           <Property Name="EMAIL" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
